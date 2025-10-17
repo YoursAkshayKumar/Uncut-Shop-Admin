@@ -24,7 +24,7 @@ const useCouponSubmit = () => {
     formState: { errors },
     reset,
     control,
-  } = useForm();
+  } = useForm<any>();
 
 
   useEffect(() => {
